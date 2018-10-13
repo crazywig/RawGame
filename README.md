@@ -46,3 +46,5 @@ By using RawGame you can remove any platform dependent code from your own codeba
 
 ## Philosophy
 RawGame is designed to facilitate easier development of games using a modern and efficient system that can work on many different platforms. C# is an easy to use programming language that still offers very good performance. Combined with a multiplatform framework like RawGame it will allow developers to target many platforms with a single codebase and get a consistent look, feel and performance across them all.
+
+Another big focus for RawGame is performance. 

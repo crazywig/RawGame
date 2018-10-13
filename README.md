@@ -1,5 +1,5 @@
 # RawGame
-RawGame is a modern C# game framework that allows you to make 2D games that can target any platform that C# is supported on. RawGame itself has no dependencies and never will, so it can easily be bundled into your existing C# project or used as a DLL. RawGame uses a plugin based architecture to keep any platform dependent code out of the main codebase and out of your game.
+RawGame is a modern C# game framework that allows you to make 2D games that can target any platform that modern C# is supported on. RawGame itself has no dependencies and never will, so it can easily be bundled into your existing C# project or used as a DLL. RawGame uses a plugin based architecture to keep any platform dependent code out of the main codebase and out of your game.
 
 Anywhere C# can run RawGame can run, however plugins are needed to make use of most of RawGame's features. Plugins for sound, graphics and input are available for the common systems and are relatively easy to develop due to RawGame itself managing as many aspects of the engines that are not platform dependent. This means you will get more reliable results on all platforms.
 

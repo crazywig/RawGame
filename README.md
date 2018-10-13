@@ -32,4 +32,5 @@ A big advantage of this plugin system is that you can choose what sound backend 
 
 
 ## Examples
-https://www.youtube.com/watch?v=0ewft5baBkY
+[![RawGame 1 million quads](http://img.youtube.com/vi/0ewft5baBkY/0.jpg)](https://www.youtube.com/watch?v=0ewft5baBkY "1 million quads")
+

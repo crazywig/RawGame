@@ -43,4 +43,4 @@ A big advantage of this plugin system is that you can choose what sound backend 
 
 
 ## Philosophy
-RawGame is designed to facilitate easier development of games using a modern and efficient system that can work on many different platforms. C# is an easy to use programming language that still offers very good performance. Combined with a multiplatform framework like RawGame it will allow developers to target many platforms with a single codebase and consistent performance, look and feel across them all.
+RawGame is designed to facilitate easier development of games using a modern and efficient system that can work on many different platforms. C# is an easy to use programming language that still offers very good performance. Combined with a multiplatform framework like RawGame it will allow developers to target many platforms with a single codebase and get a consistent look, feel and performance across them all.

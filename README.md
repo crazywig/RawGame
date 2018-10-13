@@ -3,7 +3,9 @@ RawGame is a modern C# game framework that allows you to make 2D games that can 
 
 Anywhere C# can run RawGame can run, however plugins are needed to make use of most of RawGame's features. Plugins for sound, graphics and input are available for the common systems and are relatively easy to develop due to RawGame itself managing as many aspects of the engines that are not platform dependent. This means you will get more reliable results on all platforms.
 
-A big advantage of this plugin system is that you can choose what sound backend to use, what graphics to use, what input to use without changing any of your code base. At run time you can choose the backend you want to use which will give you the ability to work around bugs that may exist in OpenGL/DirectX/Sound drivers on your users systems. By using RawGame you can remove any platform dependent code from your own codebase which will allow you to concentrate purely on making your game be available on as many systems as possible. It also means if you only want to use a subset of RawGame there will be no overhead in the things you don't use because they simply won't be loaded.
+A big advantage of this plugin system is that you can choose what sound backend to use, what graphics to use, what input to use without changing any of your code base. At run time you can choose the backend you want to use which will give you the ability to work around bugs that may exist in OpenGL/DirectX/Sound drivers on your users systems. Your game will not care whether it is running on MacOS, Windows or an Android phone.
+
+By using RawGame you can remove any platform dependent code from your own codebase which will allow you to concentrate purely on making your game be available on as many systems as possible. It also means if you only want to use a subset of RawGame there will be no overhead in the things you don't use because they simply won't be loaded.
 
 ## 2D Rendering
 - Vulkan and OpenGL supported currently through a Veldrid plugin.

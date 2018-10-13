@@ -29,3 +29,7 @@ A big advantage of this plugin system is that you can choose what sound backend 
 - Joysticks and gamepads supported
 - Multiple keyboard and mouse supported internally (backends often only support a single mouse and keyboard though)
 - Integer identification system allows easy mapping of input
+
+
+## Examples
+https://www.youtube.com/watch?v=0ewft5baBkY

@@ -34,6 +34,7 @@ By using RawGame you can remove any platform dependent code from your own codeba
 - PNG/JPG image decoders
 - WAV/Ogg sound decoders
 - Game related math helpers
+- BMFont loader
 
 ## Examples
 [![RawGame 1 million quads](http://img.youtube.com/vi/0ewft5baBkY/0.jpg)](https://www.youtube.com/watch?v=0ewft5baBkY "1 million quads")

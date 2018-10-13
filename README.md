@@ -17,7 +17,7 @@ A big advantage of this plugin system is that you can choose what sound backend 
 ## Sound
 - DirectSound and OpenAL plugins currently available
 - No limit on number of simultaneous sounds playing
-- Volume and Panning
+- Unique volume and panning for each sound instance
 - Mixing is done in RawGame and not in the backends, giving a more consistent performance and sound across all platforms
 - Very low overhead per sound instance
 - Sound is mixed as 32bit floats in a separate thread

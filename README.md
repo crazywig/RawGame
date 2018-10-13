@@ -7,7 +7,7 @@ RawGame uses a plugin based architecture to keep any platform dependent code out
 A big advantage of this plugin system is that you can choose what sound backend to use, what graphics to use, what input to use without changing any of your code base. At run time you can choose the backend you want to use which will give you the ability to work around bugs that may exist in OpenGL/DirectX/Sound drivers on your users systems. By using RawGame you can remove any platform dependent code from your own codebase which will allow you to concentrate purely on making your game be available on as many systems as possible.
 
 ## 2D Rendering
-- Vulkan and OpenGL supported currently through Veldrid.
+- Vulkan and OpenGL supported currently through a Veldrid plugin.
 - Supports scaling, rotation, texturing, depth testing, tinting, linear and point sampling.
 - Can draw millions of differently textured, scaled, rotated, etc quads in a single draw call
 - Texture switching and sampling changes are "Free" and have no impact on performance
@@ -15,7 +15,7 @@ A big advantage of this plugin system is that you can choose what sound backend 
 - Efficient and modern, only 32 bytes per quad and uses geometry shader to create quads from points. Nearly all the work is done on the GPU
 
 ## Sound
-- DirectSound and OpenAL supported currently
+- DirectSound and OpenAL plugins currently available
 - No limit on number of simultaneous sounds playing
 - Volume and Panning
 - Mixing is done in RawGame and not in the backends, giving a more consistent performance and sound across all platforms
